@@ -1,0 +1,27 @@
+{
+  "name": "@murus-app/node-utilities",
+  "version": "0.1.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murus-app/node-utilities"
+  },
+  "scripts": {
+    "murus-build-cli": "murus-build-cli",
+    "build": "barrelsby --config=\"./barrelsby.json\" --directory=\"./src/\" && tsc --project tsconfig.lib.json ",
+    "autofix": "yarn run lint:debug && yarn run prettier:format && yarn run lint:inspect",
+    "lint:debug": "tslint --format prose --project tsconfig.json --fix",
+    "lint:inspect": "tslint --format stylish --project tsconfig.json",
+    "lint:codestyle": "yarn run prettier:check",
+    "prettier:check": "prettier --config ./.prettierrc --ignore-path ./.prettierignore --check \"./**/*.{json,js,ts}\"",
+    "prettier:format": "prettier --loglevel log --config ./.prettierrc --ignore-path ./.prettierignore --write \"./**/*.{json,js,ts}\""
+  },
+  "devDependencies": {
+    "@murus-app/build-cli": "^0.1.0-f6bfa472bcfd5297952846eb7f4af135f14c5665",
+    "@types/node": "^14.0.23",
+    "barrelsby": "^2.2.0",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  }
+}
