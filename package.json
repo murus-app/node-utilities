@@ -17,11 +17,14 @@
     "prettier:format": "prettier --loglevel log --config ./.prettierrc --ignore-path ./.prettierignore --write \"./**/*.{json,js,ts}\""
   },
   "devDependencies": {
-    "@murus-app/build-cli": "^0.1.0-f6bfa472bcfd5297952846eb7f4af135f14c5665",
+    "@murus-app/build-cli": "^0.1.0-dce711e8f9acabcabb1cdf37fe4e9118aad84c5e",
     "@types/node": "^14.0.23",
     "barrelsby": "^2.2.0",
     "prettier": "^2.0.5",
     "tslint": "^6.1.2",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.3"
   }
 }
