@@ -23,12 +23,18 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@murus-app/build-cli@^0.1.0-f6bfa472bcfd5297952846eb7f4af135f14c5665":
-  version "0.1.0-f6bfa472bcfd5297952846eb7f4af135f14c5665"
-  resolved "https://npm.pkg.github.com/download/@murus-app/build-cli/0.1.0-f6bfa472bcfd5297952846eb7f4af135f14c5665/58437e4a2c708df02e92d527fe2ff3a750d63c6b7b21f50fda538f4a2adad359#7d30023bc7503897e7c5efb6f1f26970d9fb1ac7"
-  integrity sha512-N/sdxLDt9mILQpltFCJOthi+40K+JMVx0kK6htzrvfBCBVhRH9dkcN0an+N+T/SFzgg413zC5KuOaKwpC/O6VQ==
+"@murus-app/build-cli@^0.1.0-dce711e8f9acabcabb1cdf37fe4e9118aad84c5e":
+  version "0.1.0-dce711e8f9acabcabb1cdf37fe4e9118aad84c5e"
+  resolved "https://npm.pkg.github.com/download/@murus-app/build-cli/0.1.0-dce711e8f9acabcabb1cdf37fe4e9118aad84c5e/6d98241e334c327f8a8553272867eb6bbca991d1f540fecad6f6bae1da9124cb#762dec2a5337366b1cd6f18872cef3818caf0c3c"
+  integrity sha512-W/sKE2cw4x/hoZSWYEGayojzPYKoRrR11S6NhIs/gDoxAgWxwQ4KhNgQIEVIwf3kVMzMOxSwpNe+1O1PR3jRWw==
   dependencies:
+    "@murus-app/node-utilities" "^0.1.0-258fd242f78177463823b717464e1e831b3d9e72"
     fancy-log "^1.3.3"
+
+"@murus-app/node-utilities@^0.1.0-258fd242f78177463823b717464e1e831b3d9e72":
+  version "0.1.0-a6581b490cea5fb38b6dc0a66edfcd0b7c260a92"
+  resolved "https://npm.pkg.github.com/download/@murus-app/node-utilities/0.1.0-a6581b490cea5fb38b6dc0a66edfcd0b7c260a92/698f81f4c923d5856142deaf8d9080d81ca0b4e4d026a531897adb5fc057889c#c4dfc00ae87b93ddebd13a24b63c6c7df65f1038"
+  integrity sha512-rqJw3UwoG8BOBXTIAnCKEmq39TuyCga+kE87FpZnujsBtaq0504ifhEevsoc1D/gKMq5XiJhSbQUypJ23bFrRw==
 
 "@types/node@^14.0.23":
   version "14.14.20"
@@ -369,6 +375,13 @@ resolve@^1.3.2:
     is-core-module "^2.1.0"
     path-parse "^1.0.6"
 
+rxjs@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.npmjs.org/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
+  integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
+  dependencies:
+    tslib "^1.9.0"
+
 semver@^5.3.0:
   version "5.7.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
@@ -412,7 +425,7 @@ time-stamp@^1.0.0:
   resolved "https://registry.npmjs.org/time-stamp/-/time-stamp-1.1.0.tgz#764a5a11af50561921b133f3b44e618687e0f5c3"
   integrity sha1-dkpaEa9QVhkhsTPztE5hhofg9cM=
 
-tslib@^1.13.0, tslib@^1.8.1:
+tslib@^1.13.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
